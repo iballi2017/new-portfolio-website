@@ -119,7 +119,7 @@ section{
     position: absolute;
     width: 33%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -147,7 +147,7 @@ section{
     position: absolute;
     width: 33%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -175,7 +175,7 @@ section{
     position: absolute;
     width: 33%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -189,7 +189,7 @@ section{
     height: 320px;
     margin: 0 auto;
     /* margin-top: 30px; */
-    background: url("mobilepage-crop-image2.png");
+    background: url("mobilepage-crop-image2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -203,7 +203,7 @@ section{
     position: absolute;
     width: 80%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -217,7 +217,7 @@ section{
     height: 320px;
     margin: 0 auto;
     /* margin-top: 30px; */
-    background: url("mobilepage-crop-image.png");
+    background: url("mobilepage-crop-image.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -231,7 +231,7 @@ section{
     position: absolute;
     width: 80%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -259,7 +259,7 @@ section{
     position: absolute;
     width: 80%;
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 14px;
     font-weight: 600px;
     color: #fff;
     font-family: 'Ramabhadra', sans-serif;
@@ -439,6 +439,9 @@ footer .mobile-footer-content{
         background-size: 100% 100%;
         float: left;
     }
+    #plantCare #plant p{
+        font-size: 35px;
+    }
     #immigration-aboutpage{
         width: 33%;
         height: 250px;
@@ -446,6 +449,9 @@ footer .mobile-footer-content{
         margin-top: 30px;
         background-size: cover;
         float: left;
+    }
+    #immigration-aboutpage #aboutpage p{
+        font-size: 35px;
     }
     #volks{
         width: 33%;
@@ -455,6 +461,9 @@ footer .mobile-footer-content{
         background-size: 100% 100%;
         float: left;
     }
+    #volks #volkpage p{
+        font-size: 35px;
+    }
     #mobilepage1{
         width: 23%;
         height: 250px;
@@ -462,6 +471,9 @@ footer .mobile-footer-content{
         /* margin-top: 30px; */
         background-size: 100% 100%;
         float: left;
+    }
+    #mobilepage1 #mobilepage-profile p{
+        font-size: 35px;
     }
     #mobilepage2{
         width: 23%;
@@ -471,6 +483,9 @@ footer .mobile-footer-content{
         background-size: 100% 100%;
         float: left;
     }
+    #mobilepage2 #mobilepage-news p{
+        font-size: 35px;
+    }
     #wanderlust{
         width: 40%;
         height: 250px;
@@ -478,6 +493,9 @@ footer .mobile-footer-content{
         /* margin-top: 30px; */
         background-size: 100% 100%;
         float: left;
+    }
+    #wanderlust #wanderlust-caption p{
+        font-size: 35px;
     }
     .contact{
         margin-top: 400px;
