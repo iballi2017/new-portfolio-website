@@ -1,0 +1,613 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#ghost-nav{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(to right, rgba(7, 55, 49, 0.9), rgba(7, 55, 49, 0.9)), url(codescreen.png);
+    /* background: url("W.png"); */
+    background-size: 100% 100%;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 40px;
+    height: 18px;
+    margin-top: 20px;
+}
+#menu-button{
+    width: 22px;
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+}
+#close-button{
+    display: none;
+    width: 22px;
+    height: 20px;
+    float: right;
+    margin-top: 15px;
+}
+#navbar{
+    background-color: rgba(43, 119, 8,0.1);
+    display: none;
+}
+#navbar li{
+    list-style: none;
+    margin-top: 10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+}
+#hero{
+    color: #fff;
+    font-family: Roboto;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+#hero h1{
+    font-size: 25px;
+    text-align: center;
+}
+#hero .sub-header{
+    font-size: 10px;
+    text-align: center;
+    margin-top: -15px;
+}
+#hero .intro{
+    margin-top: 50px;
+}
+/* #hero button{ 
+    background-color: rgb(43, 119, 8);
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#hero button:hover{
+    background-color: rgb(34, 124, 34);
+}*/
+section{
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 13px;
+    /* margin-left: 20px; */
+    font-family: Roboto;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.works{
+    /* background: green; */
+    margin-top: 15px;
+}
+
+#plantCare{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: url("plantcare-image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#plantCare #plant{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#plantCare #plant p{
+    position: absolute;
+    width: 33%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#immigration-aboutpage{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    background: url("IMG-20180804-WA0011.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#immigration-aboutpage #aboutpage{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#immigration-aboutpage #aboutpage p{
+    position: absolute;
+    width: 33%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#volks{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    background: url("volks-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#volks #volkpage{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#volks #volkpage p{
+    position: absolute;
+    width: 33%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#mobilepage1{
+    width: 70%;
+    height: 320px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    background: url("mobilepage-crop-image2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#mobilepage1 #mobilepage-profile{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#mobilepage1 #mobilepage-profile p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#mobilepage2{
+    width: 70%;
+    height: 320px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    background: url("mobilepage-crop-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#mobilepage2 #mobilepage-news{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#mobilepage2 #mobilepage-news p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+
+#wanderlust{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    background: url("wanderlust.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#wanderlust #wanderlust-caption{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+}
+#wanderlust #wanderlust-caption p{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 600px;
+    color: #fff;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.contact{
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #17230bff;
+    color: #fff;
+    padding-left: 10px;
+    height: 60px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27px;
+}
+footer .mobile-footer-content{
+    width: 90%;
+    margin-top: 20px;
+}
+footer .mobile-footer-content{
+    padding-top: 15px;
+}
+.social-media{
+    display: none;
+    margin-top: 30px;
+}
+.social-media-icons a{
+    margin-right: 14px;
+}
+.social-media{
+    margin-right: 14px;
+}
+.footer-copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+}
+
+
+@media only screen and (min-width: 375px){
+    #plantCare, #immigration-aboutpage, #volks{
+        width: 90%;
+        height: 370px;
+    }
+    #mobilepage1, #mobilepage2{
+        width: 65%;
+        height: 340px;
+    }
+    #wanderlust{
+        width: 90%;
+        height: 300px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px){
+    #ghost-nav{
+        display: block;
+        width: 100%;
+        /* background: rgb(18, 68, 39); */
+        background-image: linear-gradient(to right, rgba(7, 55, 49, 0.9), rgba(7, 55, 49, 0.9)), url(codescreen.jpg);
+    
+        height: 30px;
+        padding-top: 20px;
+        position: fixed;
+    }
+    #ghost-nav .logo{
+        margin-left: 70px;
+    }
+    #ghost-nav #navbar{
+        margin-right: 68px;
+    }
+    header{
+        width: 100%;
+        margin: 0 auto;
+        height: 430px;
+        background-size: 100% 100%;
+        padding-top: 30px;
+    }
+    nav{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #navbar{
+        margin-right: 50px;
+    }
+    #navbar li{
+        list-style: none;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    #navbar li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 13px;
+    }
+    .logo{
+        width: 40px;
+        height: 22px;
+        margin-top: -5px;
+    }
+    .caption{
+        position: absolute;
+        color: #fff;
+        margin: 13px 0 0 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: -5px;
+    }
+    #menu-button{
+        display: none;
+    }
+    #navbar{
+        display: block;
+        background: none;
+        float: right;
+        margin-top: -13px;
+        margin-right: 8px;
+    }
+    #navbar li{
+        float: left;
+        margin-left: 10px;
+    }
+    #navbar li a{
+        font-size: 10px;
+    }
+    #navbar li a:hover{
+        color: #ccc;
+    }
+     #hero{ 
+        width: 80%;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    #hero h1{
+        font-size: 30px;
+    }
+    #hero .sub-header{
+        font-size: 10px;
+        text-align: center;
+        margin-top: -30px;
+    }
+    #hero .intro{
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    section{
+        width: 80%;
+        height: 220px;
+        margin: 0 auto;
+        margin-top: 30px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+    section h2{
+        font-size: 34px;
+    }
+    .works{
+        /* background: green; */
+        margin-top: 340px;
+    }
+    .works h2{
+        font-size: 34px;
+    }
+    #plantCare{
+        width: 33%;
+        height: 250px;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    #immigration-aboutpage{
+        width: 33%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-size: cover;
+        float: left;
+    }
+    #volks{
+        width: 33%;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    #mobilepage1{
+        width: 23%;
+        height: 250px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #mobilepage2{
+        width: 23%;
+        height: 250px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #wanderlust{
+        width: 40%;
+        height: 250px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    .contact{
+        margin-top: 400px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+    footer{
+        background-color: #17230bff;
+        height: 100px;
+    }
+    .social-media-icons{
+        display: none;
+    }
+    .social-media{
+        margin-left: 20%;
+        margin-top: 0px;
+        /* text-align: center; */
+    }
+    .footer-copyright{
+        text-align: center;
+        color: #fff;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .social-media{
+        display: block;
+        margin-top: 30px;
+    }
+    .social-media a{
+        margin-right: 14px;
+        color: #fff;
+        text-decoration: none;
+    }
+    footer{
+        height: 60px;
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px){
+    #ghost-nav .logo{
+        margin-left: 140px;
+    }
+    #ghost-nav #navbar{
+        margin-right: 120px;
+    }
+    #navbar li{
+        list-style: none;
+        margin-top: 10px;
+    }
+    #navbar li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+    }
+    .logo{
+            width: 50px;
+            height: 20px;
+            margin-top: -5px;
+            cursor: pointer;
+        }
+    #hero h1{
+        font-size: 45px;
+    }
+    #hero p{
+        margin-top: 100px;
+        font-size: 23px;
+    }
+    #hero .sub-header{
+        font-size: 20px;
+    }
+    #hero .intro{
+        margin-top: 100px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #plantCare{
+        width: 33%;
+        height: 380px;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    #immigration-aboutpage{
+        width: 33%;
+        height: 380px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    #volks{
+        width: 33%;
+        height: 380px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-size: 100% 100%;
+        float: left;
+    }
+    #mobilepage1{
+        width: 23%;
+        height: 380px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #mobilepage2{
+        width: 23%;
+        height: 380px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    #wanderlust{
+        width: 40%;
+        height: 380px;
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        background-size: 100% 100%;
+        float: left;
+    }
+    .contact{
+        margin-top: 700px;
+    }
+    .social-media{
+        margin-left: 34%;
+    }
+}
